@@ -1244,7 +1244,7 @@ table.default thead {
 /* Section/Article */
 
 section, article {
-  margin-bottom: 2.5em;
+  margin-bottom: 6em;
 }
 
 section > :last-child, section:last-child, article > :last-child, article:last-child {
@@ -1790,7 +1790,7 @@ ol.default li {
   }
 
   footer {
-    margin: 2.25em 0 0 0;
+    margin: .25em 0 0 0;
   }
 
   /* Box */
@@ -1875,7 +1875,7 @@ ol.default li {
   /* Wrappers */
 
   #header-wrapper {
-    padding: 1em 0 4em 0;
+    padding: 1em 0 1em 0;
   }
 
   #footer-wrapper {
@@ -2533,4 +2533,20 @@ ol.default li {
     padding: 0.75em 1.25em 0.75em 1.25em;
   }
 
+}
+
+#pkt footer{
+  text-align: center;
+}
+
+#sponsorship {
+}
+
+#organizers {
+  text-align: center;
+}
+
+#organizers img {
+  box-shadow: 2px 2px 4px rgba(0,0,0,.2);
+  border: .1px solid rgba(0,0,0,.1);
 }
