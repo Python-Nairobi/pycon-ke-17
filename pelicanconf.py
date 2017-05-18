@@ -26,12 +26,26 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+    ('github', 'https://github.com/python-nairobi'),
+    ('twitter', 'https://twitter.com/pynbo'),
+    ('meetup', 'https://www.meetup.com/Python-Nairobi/'),
+    ('file-text', 'http://blog.pynbo.or.ke/'),
+)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-THEME = "nest"
+THEME = "pyconke17-dopetrope"
+NAVITEMS = (
+    ('PyConKe 17', '/'),
+    ('Schedule', '/schedule'),
+    ('Sponsorship', '/sponsorship'),
+    ('Volunteering', '/volunteering'),
+    ('About', '/about'),
+)
+
+VOLUNTEER_LINK = "https://goo.gl/forms/FXYhWJSxZjeR6VFa2"
+SPONSOR_LINK = "mailto:sponsorthis@pycon.or.ke"
