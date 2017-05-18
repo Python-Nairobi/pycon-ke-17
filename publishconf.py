@@ -25,7 +25,7 @@ GOOGLE_ANALYTICS = "UA-99143602-1"
 
 # static paths will be copied without parsing their contents
 STATIC_PATHS = [
-    'img',
+    'images',
     'js',
     'css',
     'extra/robots.txt',
