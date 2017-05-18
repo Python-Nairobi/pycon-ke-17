@@ -41,11 +41,12 @@ DEFAULT_PAGINATION = 10
 THEME = "pyconke17-dopetrope"
 NAVITEMS = (
     ('PyConKe 17', '/'),
-    ('Schedule', '/schedule'),
-    ('Sponsorship', '/sponsorship'),
-    ('Volunteering', '/volunteering'),
-    ('About', '/about'),
+#    ('Schedule', '/schedule'),
+#    ('Sponsorship', '/sponsorship'),
+#    ('Volunteering', '/volunteering'),
+#    ('About', '/about'),
 )
 
 VOLUNTEER_LINK = "https://goo.gl/forms/FXYhWJSxZjeR6VFa2"
+PROPOSALS_LINK = ""
 SPONSOR_LINK = "mailto:sponsorthis@pycon.or.ke"
