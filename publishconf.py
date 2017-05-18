@@ -22,3 +22,13 @@ DELETE_OUTPUT_DIRECTORY = True
 
 #DISQUS_SITENAME = ""
 GOOGLE_ANALYTICS = "UA-99143602-1"
+
+# static paths will be copied without parsing their contents
+STATIC_PATHS = [
+    'img',
+    'js',
+    'css',
+    'extra/robots.txt',
+    'CNAME',
+    'README.md',
+]
