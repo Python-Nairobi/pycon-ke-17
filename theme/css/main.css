@@ -1495,6 +1495,7 @@ ul.divided li:first-child {
 ul.social {
   overflow: hidden;
   cursor: default;
+  font-size: 9px;
 }
 
 ul.social li {
