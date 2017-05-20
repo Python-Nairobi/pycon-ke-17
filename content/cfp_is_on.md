@@ -1,5 +1,5 @@
 Title: Call for Proposals
-Date: 2017-05-14 00:00
+Date: 2017-05-20 00:00
 Tags: call for proposals, cfp
 Slug: call_for_proposals
 Category: Event Planning
@@ -8,7 +8,8 @@ Summary: The call for proposals is on! If you have something pythonic that you w
 
 
 ##The call for proposals is on!  
-##  
+i##  
+
 One of the main goals of this PyConKE is to share the knullidge!
 If you have something pythonic that you would like to share/teach/present
 at the conference, we are all ears!
