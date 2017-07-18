@@ -49,6 +49,15 @@ NAVITEMS = (
 #    ('About', '/about'),
 )
 
-VOLUNTEER_LINK = "https://goo.gl/forms/FXYhWJSxZjeR6VFa2"
+VOLUNTEER_LINK = "//call_for_volunteers"
 PROPOSALS_LINK = ""
 SPONSOR_LINK = "mailto:sponsorthis@pycon.or.ke"
+
+STATIC_PATHS = [
+    'images',
+    'js',
+    'css',
+    'extra/robots.txt',
+    'CNAME',
+    'README.md',
+]
