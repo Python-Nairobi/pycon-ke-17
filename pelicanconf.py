@@ -42,8 +42,10 @@ THEME = "pyconke17-dopetrope"
 NAVITEMS = (
     ('PyConKe 17', '/'),
 #    ('Schedule', '/schedule'),
+    ('Recent Developments', '/#developments'),
 #    ('Sponsorship', '/sponsorship'),
-#    ('Volunteering', '/volunteering'),
+    ('Call for Proposals', '/call_for_proposals'),
+    ('Volunteering', '/call_for_volunteers'),
 #    ('About', '/about'),
 )
 
