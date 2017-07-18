@@ -49,7 +49,7 @@ NAVITEMS = (
 #    ('About', '/about'),
 )
 
-VOLUNTEER_LINK = "//call_for_volunteers"
+VOLUNTEER_LINK = "call_for_volunteers"
 PROPOSALS_LINK = ""
 SPONSOR_LINK = "mailto:sponsorthis@pycon.or.ke"
 
