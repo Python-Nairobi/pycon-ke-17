@@ -8,7 +8,6 @@ Summary: The call for proposals is on! If you have something pythonic that you w
 
 
 ##The call for proposals is on!  
-i##  
 
 One of the main goals of this PyConKE is to share the knullidge!
 If you have something pythonic that you would like to share/teach/present

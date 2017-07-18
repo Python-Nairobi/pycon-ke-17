@@ -7,19 +7,19 @@ Author: James Nzomo
 Summary: The call for volunteers is on! Running a conference it tough work and we'll need all the KyM we can get :) !
 
 
-#The call for volunteers is on!  
+##The call for volunteers is on!
 
-Hi! Thanks for your interest in becoming a volunteer for PyConKE 2017. 
+Hi! Thanks for your interest in becoming a volunteer for PyConKE 2017.
 The spirit of volunteerism is what makes the Python community and tech
 events like PyCon distinctly inspiring. We need all the help we can get :)
 Volunteership is grouped into the following areas/teams:
 
-- Pre-event training (teaching Python through music, animation, and web training)
-- Logistics
-- Fundraising
-- Marketing & Community relations
-- Graphics & Web Design
-- Programs (workshops, talks, etc)
+  - Pre-event training (teaching Python through music, animation, and web training)
+  - Logistics
+  - Fundraising
+  - Marketing & Community relations
+  - Graphics & Web Design
+  - Programs (workshops, talks, etc)
 
 Once you've decided which team(s) you'd like to help with, please fill out
 the form below and we'll get in touch with you as soon as we can. Note that
@@ -29,10 +29,10 @@ reached.
 
 In addition to this feel free to join:
 
-- Python Nairobi Meetup group: https://www.meetup.com/Python-Nairobi/
-- Telegram: https://telegram.me/pythonKE
-- Mailing list: https://mail.python.org/mailman/listinfo/python-ke
-- Slack: https://python-ke.herokuapp.com/
+  - Python Nairobi Meetup group: https://www.meetup.com/Python-Nairobi/
+  - Telegram: https://telegram.me/pythonKE
+  - Mailing list: https://mail.python.org/mailman/listinfo/python-ke
+  - Slack: https://python-ke.herokuapp.com/
 
   &nbsp;  
 <iframe
