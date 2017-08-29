@@ -1,12 +1,13 @@
 dependencies:
-  pre:
+  override:
     - cd ~/pyconke
     - pip install -r requirements.txt
 
 test:
   override:
-    - ./developer_server.sh start
-    - ./developer_server.sh stop
+    - ./develop_server.sh start
+    - sleep 5
+    - ./develop_server.sh stop
 
 deployment:
   master:
