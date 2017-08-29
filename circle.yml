@@ -1,3 +1,9 @@
+checkout:
+  post:
+    - sed -i '/Host pyconke17-dopetrope/aHostname github.com' ~/.ssh/config
+    - git submodule sync
+    - git submodule update --init
+
 dependencies:
   override:
     - cd ~/pyconke
