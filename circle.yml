@@ -1,0 +1,15 @@
+dependencies:
+  pre:
+    - cd ~/pyconke
+    - pip install -r requirements.txt
+
+test:
+  override:
+    - ./developer_server.sh start
+    - ./developer_server.sh stop
+
+deployment:
+  master:
+    branch: master
+    commands:
+      - ghp-import -p output
