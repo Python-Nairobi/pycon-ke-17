@@ -1,6 +1,5 @@
 dependencies:
   override:
-    - sed -i '/Host cide*/aHostname github.com' ~/.ssh/config
     - cd ~/pyconke
     - pip install -r requirements.txt
 
@@ -14,4 +13,5 @@ deployment:
   master:
     branch: master
     commands:
+      - sed -i s/circleci_github/cideploy/g ~/.ssh/config
       - ghp-import -p output
