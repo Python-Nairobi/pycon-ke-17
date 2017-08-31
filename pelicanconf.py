@@ -4,7 +4,14 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Python Nairobi'
 SITENAME = u'PyConKE'
+TAGLINE = ''
 SITEURL = ''
+DESCRIPTION = """
+PyConKe will be the first in a series of annual gatherings of software developers,
+techies, business people, startups, learning institutions, students and other
+organizations and individuals that use or otherwise have an interest/stake in
+the Python programming language and its ecosystem
+"""
 
 PATH = 'content'
 
@@ -52,6 +59,58 @@ NAVITEMS = (
 VOLUNTEER_LINK = "call_for_volunteers"
 PROPOSALS_LINK = ""
 SPONSOR_LINK = "mailto:sponsorthis@pycon.or.ke"
+TOPICS = (
+    (
+        'fa-globe',
+        'Web, Music &amp; Animation',
+        'Pythonic web frameworks, scripting in animation with Blender '
+        'and coding music in Py with sonicpi. Plenty of talks and tutorials '
+        'on these to get you started.'
+    ),
+    (
+        'alt fa-bar-chart-o',
+        'Data Science &amp; AI',
+        'Stats crunching with Pandas &amp; co. and ML with with tools like Tensorflow. '
+        'Come partake in some pythonic stats &amp; AI '
+        '(just don''t let what you subsequently create become self aware)'
+    ),
+    (
+        'alt2 fa fa-microchip',
+        'Internet of Things',
+        'Python in my IoT? It''s more likely than you think! Featured at the conference'
+        'will be talks and presentations on (micro)python on assorted hardware'
+        'with example applications.',
+    )
+)
+SPONSORS = (
+    (
+        "https://jumo.world",
+        "images/jumo.png",
+        "Jumo World"
+    ),
+    (
+        "https://usiu.ac.ke",
+        "images/usiu.png",
+        "Jumo World",
+    ),
+    (
+        "https://ona.io",
+        "images/ona.png",
+        "ONA",
+    )
+)
+ORGANIZERS = (
+    (
+        "http://meetup.com/Python-Nairobi",
+        "images/pynbo.jpg",
+        "Python Nairobi",
+    ),
+    (
+        "http://tunapanda.org",
+        "images/tunapanda.jpg",
+        "Tunapanda Institute",
+    )
+)
 
 STATIC_PATHS = [
     'images',
