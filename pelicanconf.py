@@ -41,11 +41,13 @@ DEFAULT_PAGINATION = 10
 THEME = "pyconke17-dopetrope"
 NAVITEMS = (
     ('PyConKe 17', '/'),
-#    ('Schedule', '/schedule'),
-    ('Recent Developments', '/#developments'),
+    ('Registration', '/registration'),
+    ('Schedule', '/schedule'),
 #    ('Sponsorship', '/sponsorship'),
     ('Call for Proposals', '/call_for_proposals'),
     ('Volunteering', '/call_for_volunteers'),
+    ('CoC', '/coc'),
+    ('Recent Developments', '/#developments'),
 #    ('About', '/about'),
 )
 
