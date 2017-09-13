@@ -191,7 +191,7 @@ lets execute our spider
 >$ scrapy crawl naiblog -o posts.json
 >```
 
-you will lots of logs being displayed on your terminal, when there are no more logs displayed navigate to the root of 
+you will see lots of logs being displayed on your terminal, when there are no more logs displayed navigate to the root of 
 `naiblog` project and you will see a file named `posts.json`, open it and you will see all the posts in `pynbo blog`.
 
 Thats all!!
