@@ -18,7 +18,7 @@ To contribute, we recommend you install:-
 2. Clone your fork and cd into it.
 3. Create a virtualenv for your repo:- `mkvirtualenv -a . pyconke17web`.
 4. Install the remaining dependencies:- `pip install -r requirements.txt`.
-5. Initialize & update submodule dependencies (plugins, theme & skulpt interpreter): `git submodule update --init --recursive`.
+5. Initialize & update submodule dependencies (plugins, theme ..etc): `git submodule update --init --recursive`.
 6. Then create a branch, naming it along the lines as your topic of contribution.
 
 ## EDITING
