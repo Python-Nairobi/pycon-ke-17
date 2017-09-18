@@ -465,19 +465,20 @@ li {
   .sponsors {
     background: #FFF;
     margin-left: -5vw;
-    padding: 3em 5vw 5em;
+    padding: 1em;
     width: 105vw; }
     .sponsors .section-title {
       text-align: center;
       color: #2D2546; }
     .sponsors .sponsor-grid {
       text-align: center;
-      margin-top: 3em; }
+      margin-top: 3.5em; }
       .sponsors .sponsor-grid li {
         display: inline-block;
         margin-right: 2.5em; }
-      .sponsors .sponsor-grid img {
-        height: 4em; }
+      .sponsors .sponsor-grid.level-1 img {height: 10em;}
+      .sponsors .sponsor-grid.level-2 img {height: 8em;}
+      .sponsors .sponsor-grid.level-3 img {height: 6em;}
 
   footer {
     flex: 1;

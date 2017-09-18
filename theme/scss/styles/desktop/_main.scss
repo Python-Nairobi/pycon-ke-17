@@ -8,7 +8,7 @@ body.home {
 section {
   min-height: 300px;
   padding-top: 3em;
-  
+
   .section-title {
     column-span: all;
     font-weight: 100;
@@ -18,7 +18,7 @@ section {
     margin-bottom: 1.25em;
   }
 }
-  
+
 .cta-wrapper {
   margin-top: 5em;
   padding: 0 2em;
@@ -65,7 +65,7 @@ section {
 
     img {
       display: block;
-      height: 3em;      
+      height: 3em;
       margin: auto;
     }
   }
@@ -78,7 +78,7 @@ section {
   margin-top: 44vh;
   padding: 4em 5em 3em;
   width: 105vw;
-  
+
   .icons,
   .description {
     float: left;
@@ -113,7 +113,7 @@ section {
     font-size: 1.25em;
     padding-right: 5em;
     line-height: 1.8;
-    
+
     &::before {
       background: #FFF;
       content: ' ';
@@ -130,7 +130,7 @@ section {
   column-count: 3;
 
   h3 {
-    color: $pycon-pink;    
+    color: $pycon-pink;
     font-family: $heading-stack;
     font-size: 1.25em;
   }
@@ -143,7 +143,7 @@ section {
 
 
 // Speakers Section Styles
-.speakers {  
+.speakers {
   margin-left: -5vw;
   padding-bottom: 3em;
   width: 105vw;
@@ -155,18 +155,18 @@ section {
 
 .speaker-grid {
   height: 23rem;
-  min-width: 0px; 
-  overflow-x: auto;  
+  min-width: 0px;
+  overflow-x: auto;
   position: relative;
   width: auto;
-  
+
   h3,
   p {
-    margin-left: 5vw; 
+    margin-left: 5vw;
   }
 
   h3 {
-    color: $pycon-pink;    
+    color: $pycon-pink;
     font-family: $heading-stack;
     font-size: 1.25em;
   }
@@ -184,11 +184,11 @@ section {
 // Speakers Section Styles
 
 
-// Sponsors Section Styles 
+// Sponsors Section Styles
 .sponsors {
   background: #FFF;
   margin-left: -5vw;
-  padding: 2em 5vw 3em;
+  padding: 1em;
   width: 105vw;
 
   .section-title {
@@ -199,23 +199,23 @@ section {
   .sponsor-grid {
     margin-top: 3em;
     text-align: center;
-    // min-width: 0px; 
+    // min-width: 0px;
     // min-height: 4em;
-    // overflow-x: scroll; 
+    // overflow-x: scroll;
     // position: relative;
     // width: auto;
-    
+
     li {
       display: inline-block;
-      margin-right: 2.5em;
+      margin-right: 3.5em;
     }
 
-    img {
-      height: 4em;
-    }
+    &.level-1 img {height:  10em;}
+    &.level-2 img {height:  8em;}
+    &.level-3 img {height:  6em;}
   }
 }
-// End of Sponsors Section Styles 
+// End of Sponsors Section Styles
 
 
 //** End of Main Styles **/
