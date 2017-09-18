@@ -38,7 +38,7 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-THEME = "pyconke17-dopetrope"
+THEME = "pelican-pyconke-17"
 NAVITEMS = (
     ('PyConKe 17', '/'),
     ('Registration', '/registration'),
