@@ -1,335 +1,231 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
-  pyconke17 pelican theme developed from the Dopetrope by HTML5 UP
-  html5up.net | @ajlkn
-  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  pyconke17 theme
 -->
-<html>
-  <head>
+<html lang="en">
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!--[if lte IE 8]><script src="/theme/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="/theme/css/normalize.min.css" />
     <link rel="stylesheet" href="/theme/css/main.css" />
-    <!--[if lte IE 8]><link rel="stylesheet" href="/theme/css/ie8.css" /><![endif]-->
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="/theme/css/cuprum_bolditalic/cuprum.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="/theme/css/dopetrope.css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>PyConKE - Articles by James Nzomo</title>
 
-  </head>
-  <body class="homepage">
-    <div id="page-wrapper">
-
-      <!-- Header -->
-      <div id="header-wrapper">
-        <div id="header">
-
-          <!-- Nav -->
-          <nav id="nav">
+</head>
+<body class="home">
+    <!-- Header -->
+    <header class="wrapper clearfix">
+        <a href="" class="logo">
+            <img src="/theme/img/logo.svg">
+        </a>
+        <nav>
             <ul>
-              <li><a href="/">PyConKe 17</a></li>
-              <li><a href="/registration">Registration</a></li>
-              <li><a href="/schedule">Schedule</a></li>
-              <li><a href="/call_for_proposals">Call for Proposals</a></li>
-              <li><a href="/call_for_volunteers">Volunteering</a></li>
-              <li><a href="/coc">CoC</a></li>
-              <li><a href="/#developments">Recent Developments</a></li>
+                    <li><a href="/">PyConKe 17</a></li>
+                    <li><a href="/registration">Registration</a></li>
+                    <li><a href="/schedule">Schedule</a></li>
+                    <li><a href="/call_for_proposals">Call for Proposals</a></li>
+                    <li><a href="/call_for_volunteers">Volunteering</a></li>
+                    <li><a href="/coc">CoC</a></li>
+                    <li><a href="/#developments">Recent Developments</a></li>
             </ul>
-          </nav>
-
-<section id="banner">
-  <header>
-    <h2></h2>
-    <h2 style="
-    font-size: 100px;
-">PyConKE!</h2>
-    <p class="icon fa-calendar" style="
-    color: white;
-">&nbsp;
-      28<sup>th</sup> to 29<sup>th</sup> of September 2017 &nbsp;
-    </p>
-    <p class="icon fa-map-marker" style="
-    color: white;
-">&nbsp;
-      <a href="http://www.usiu.ac.ke/study/grades-registration/academic-calendar/icalrepeat.detail/2017/09/28/239/98%7C99%7C100/pycon-conference" target="_blank" style="
-    color: white;
-">USIU Africa</a>
-    </p>
-    <p style="icon fa-ticket">&nbsp;
-      <a href="https://mymookh.com/tickets/event/435" target="_blank" class="button" style="
-    padding: 0.2em 1.5em;
-    margin-top: .3em;
-">Grab your tickets here</a>
-    </p>
-  </header>
-</section>
-
-<!-- Intro -->
-<section id="intro" class="container">
-  <header class="major">
-    <h2 class="icon fa-info-circle"></h2>
-  </header>
-  <div class="row">
-    <div class="12u 12u(mobile)">
-      PyConKe will be the first in a series of anual gatherings of software developers,
-      techies, business people, startups, learning institutions, students and other
-      organizations and individuals that use or otherwise have an interest/stake in
-      the Python programming language and its ecosystem.
-      <br><br>
-      <h3>Topics featuring in the event...</h3>
-    </div>
-  </div>
-  <div class="row">
-    <div class="4u 12u(mobile)">
-      <section class="first">
-        <i class="icon featured fa-globe"></i>
-        <header>
-          <h2>Web, Music &amp; Animation</h2>
-        </header>
-        <p>
-          Pythonic web frameworks, scripting in animation with Blender
-          and coding music in Py with sonicpi. Plenty of talks and tutorials
-          on these to get you started.
-        </p>
-      </section>
-    </div>
-    <div class="4u 12u(mobile)">
-      <section class="middle">
-        <i class="icon featured alt fa-bar-chart-o"></i>
-        <header>
-          <h2>Data Science &amp; AI</h2>
-        </header>
-        <p>
-          Stats crunching with Pandas &amp; co. and ML with with tools like Tensorflow.
-          Come partake in some pythonic stats &amp; AI
-          (just don't let what you subsequently create become self aware).
-        </p>
-      </section>
-    </div>
-    <div class="4u 12u(mobile)">
-      <section class="last">
-        <i class="icon featured alt2 fa fa-microchip"></i>
-        <header>
-          <h2>Internet of Things</h2>
-        </header>
-        <p>
-          Python in my IoT? It's more likely than you think! Feauted at the conference
-          will be talks and presentations on (micro)python on assorted hardware
-          with example applications.
-        </p>
-      </section>
-    </div>
-  </div>
-  <footer>
-    <ul class="actions">
-      <li><a href="schedule" class="button big">... and then some</a></li>
-    </ul>
-  </footer>
-</section>
-
-        </div>
-      </div>
-
-      <!-- Main -->
-      <div id="main-wrapper">
-
-        <div class="container">
-          <div class="row">
-
-    <!-- sponsors -->
-    <section id="sponsors">
-      <header class="major">
-        <h2 class="icon fa-money"> Our awesome (and growing) grid of sponsors:-</h2>
-      </header>
-      <div class="row" id="tier1">
-        <br>
-        <div class="4u 8u(mobile)">
-          <section>
-            <a href="https://jumo.world" class="image featured" target="_blank">
-              <img src="images/jumo.png" alt="Jumo World">
-            </a>
-          </section>
-        </div>
-        <div class="4u 8u(mobile)">
-          <section>
-            <a href="https://usiu.ac.ke" class="image featured" target="_blank">
-              <img src="images/usiu.png" alt="Jumo World">
-            </a>
-          </section>
-        </div>
-        <div class="4u 8u(mobile)">
-          <section>
-            <a href="https://ona.io" class="image featured" target="_blank">
-              <img src="images/ona.png" alt="ONA">
-            </a>
-          </section>
-        </div>
-      </div>
-      <!-- div class="row" id="tier2">
-        <div class="3u 4u(mobile)">
-          <section>
-            <a href="#" class="image featured" target="_blank">
-              <img src="">
-            </a>
-          </section>
-        </div>
-        <div class="3u 4u(mobile)">
-          <section>
-            <a href="#" class="image featured" target="_blank">
-              <img src="">
-            </a>
-          </section>
-        </div>
-        <div class="3u 4u(mobile)">
-          <section>
-            <a href="#" class="image featured" target="_blank">
-              <img src="">
-            </a>
-          </section>
-        </div>
-        <div class="3u 4u(mobile)">
-          <section>
-            <a href="#" class="image featured" target="_blank">
-              <img src="">
-            </a>
-          </section>
-        </div>
-      </div-->
-    </section>
-
-    <!-- organizers -->
-    <section id="organizers">
-      <header class="major">
-        <h2 class="icon fa-cogs"> And the folks behind this event :-</h2>
-      </header>
-      <div class="row">
-        <div class="6u 12u(mobile)">
-          <section>
-            <a href="http://meetup.com/Python-Nairobi" class="image featured" target="_blank">
-              <img src="images/pynbo.jpg" alt="Python Nairobi">
-            </a>
-          </section>
-        </div>
-        <div class="6u 12u(mobile)">
-          <section>
-            <a href="http://tunapanda.org" class="image featured" target="_blank">
-              <img src="images/tunapanda.jpg" alt="Tunapanda Institute">
-            </a>
-          </section>
-        </div>
-      </div>
-    </section>
-  </div>
-</div>
-</div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Footer -->
-      <div id="footer-wrapper">
-        <section id="footer" class="container">
-          <div class="row">
-<!-- articles -->
-<div class="12u">
-  <section>
-    <header>
-      <h2 id="developments" name="developments">Recent Developments</h2>
+        </nav>
     </header>
-    <ul class="dates">
-      <li>
-        <span class="date">
-          26<strong>Aug</strong>
-        </span>
-        <h3>
-          <a href="/schedule.html" title="Permalink to Schedule (WIP)" target="_blank">Schedule (WIP)</a>
-        </h3>
-        <p><p>(still in the works)</p></p>
-      </li>
-      <li>
-        <span class="date">
-          20<strong>May</strong>
-        </span>
-        <h3>
-          <a href="/call_for_proposals.html" title="Permalink to Call for Proposals" target="_blank">Call for Proposals</a>
-        </h3>
-        <p><p>The call for proposals is on! If you have something pythonic that you would like to share/teach/present at the conference, we are all ears!</p></p>
-      </li>
-      <li>
-        <span class="date">
-          20<strong>May</strong>
-        </span>
-        <h3>
-          <a href="/call_for_volunteers.html" title="Permalink to Call for Volunteers" target="_blank">Call for Volunteers</a>
-        </h3>
-        <p><p>The call for volunteers is on! Running a conference it tough work and we'll need all the KyM we can get :) !</p></p>
-      </li>
-    </ul>
-  </section>
-</div>
-          </div>
-          <div class="row">
-            <div class="12u">
-
-              <!-- Copyright -->
-              <div id="copyright">
+    <!-- /Header -->
+<!-- Main Container -->
+<main class="wrapper">
+    <img src="/theme/img/skyline.png" class="skyline">
+    <section class="cta-wrapper">
+        <h2>28 &mdash; 29<br/>Sept. 2017</h2>
+        <h3>@USIU-Africa</h3>
+        <a href="https://mymookh.com/tickets/event/435" class="button primary-cta square">Buy
+            Ticket</a>
+    </section>
+    <section class="description-wrapper clearfix">
+        <div class="icons clearfix">
+            <ul class="icon-grid clearfix">
+                <li class="icon">
+                    <img src="/theme/img/ConnectIcon.svg">
+                    <h4>Connect</h4>
+                </li>
+                <li class="icon">
+                    <img src="/theme/img/ShareIcon.svg">
+                    <h4>Share</h4>
+                </li>
+                <li class="icon">
+                    <img src="/theme/img/LearnIcon.svg">
+                    <h4>Learn</h4>
+                </li>
+                <li class="icon">
+                    <img src="/theme/img/InspireIcon.svg">
+                    <h4>Inspire</h4>
+                </li>
+            </ul>
+        </div>
+        <div class="description">
+            <p>The first convention in Kenya bringing together techies, business people, startups,
+                learning institutions, students and other organizations or individuals with an
+                interest in the Python programming language and its ecosystem.</p>
+        </div>
+    </section>
+    <section class="topics">
+        <h2 class="section-title">Featured Topics</h2>
+        <article>
+            <h3>DATA SCIENCE<br/> &amp; AI</h3>
+            <p>Data Science &amp; AI</p>
+            <p>Stats crunching with Pandas &amp; co. and ML with with tools like Tensorflow. Come
+                partake in some pythonic stats & AI (just don't let what you subsequently create
+                become self aware).</p>
+        </article>
+        <article>
+            <h3>Internet of Things</h3>
+            <p>Python in my IoT? It's more likely than you think! Feauted at the conference will be
+                talks and presentations on (micro) python on assorted hardware with example
+                applications.</p>
+        </article>
+        <article>
+            <h3>Web, Music &amp;<br/> Animation</h3>
+            <p>Pythonic web frameworks, scripting in animation with Blender and coding music in Py
+                with sonicpi. Plenty of talks and tutorials on these to get you started.</p>
+        </article>
+    </section>
+    <section class="sponsors">
+        <h2 class="section-title">Our Awesome (and Growing) Grid of Sponsors</h2>
+        <ul class="sponsor-grid level-1">
+            <li>
+               <a href="https://www.jumo.world">
+                    <img src="https://www.filepicker.io/api/file/8gDICu9OQPOBqssHwvg1/convert?"
+                     alt="Jumo Logo" title="JUMO">
+               </a>
+            </li>
+            <li>
+                <a href="http://www.usiu.ac.ke">
+                    <img src="http://www.usiu.ac.ke/templates/usiuhomepagetemplate/images/logo-new.png"
+                         alt="USIU Logo" title="USIU">
+                </a>
+            </li>
+            <li>
+                <a href="https://gro-intelligence.com">
+                    <img src="https://gro-intelligence.com/images/logo.jpg"
+                         alt="Gro Intelligence Logo" title="Gro Intelligence">
+                </a>
+            </li>
+        </ul>
+        <ul class="sponsor-grid level-2">
+            <li>
+                <a href="https://www.ona.io">
+                    <img src="https://blog.ona.io/assets/images/ona-logo.png" alt="Ona Logo" title="Ona">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.intel.com">
+                    <img src="http://logos-download.com/wp-content/uploads/2016/02/Intel_white_logo.png"
+                         alt="Intel Logo" title="Intel">
+                </a>
+            </li>
+        </ul>
+        <ul class="sponsor-grid level-3">
+            <li>
+                <a href="http://www.value8.com">
+                    <img src="https://cdn-images-1.medium.com/max/532/1*epZGySCPZEWLnJEnP5Dqfw@2x.png"
+                         alt="Africa's Talking Logo" title="Africa's Talking">
+                </a>
+            </li>
+            <li>
+                <a href="http://www.value8.com">
+                    <img src="http://www.value8.com/wp-content/uploads/2014/10/images-stories-artikel-value8-small1.png"
+                         alt="Value8 Logo" title="Value8">
+                </a>
+            </li>
+        </ul>
+    </section>
+</main>
+<!-- /Main Container -->
+    <!-- Footer -->
+    <footer>
+        <div id="footer-wrapper">
+            <div class="row">
+    <!-- recent developments -->
+    <section class="developments">
+        <header>
+            <h2 id="developments" name="developments">Recent Developments</h2>
+        </header>
+        <ul class="dates">
+            <li>
+                <span class="date">
+                    26
+                    <strong>Aug</strong>
+                </span>
+                <h3>
+                    <a href="/schedule.html" title="Permalink to Schedule (WIP)" target="_blank">Schedule (WIP)</a>
+                </h3>
+                <p><p>(still in the works)</p></p>
+            </li>
+            <li>
+                <span class="date">
+                    20
+                    <strong>May</strong>
+                </span>
+                <h3>
+                    <a href="/call_for_proposals.html" title="Permalink to Call for Proposals" target="_blank">Call for Proposals</a>
+                </h3>
+                <p><p>The call for proposals is on! If you have something pythonic that you would like to share/teach/present at the conference, we are all ears!</p></p>
+            </li>
+            <li>
+                <span class="date">
+                    20
+                    <strong>May</strong>
+                </span>
+                <h3>
+                    <a href="/call_for_volunteers.html" title="Permalink to Call for Volunteers" target="_blank">Call for Volunteers</a>
+                </h3>
+                <p><p>The call for volunteers is on! Running a conference it tough work and we'll need all the KyM we can get :) !</p></p>
+            </li>
+        </ul>
+    </section>
+            </div>
+            <!-- Copyright -->
+            <div id="copyright">
                 <ul class="links">
-                  <li>
-                    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
-                  </li>
-                  <li><a href="http://blog.pynbo.or.ke">Python Nairobi Community</a></li>
+                    <li>
+                        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+                            <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://blog.pynbo.or.ke">Python Nairobi Community</a>
+                    </li>
                 </ul>
                 <p style="font-size:12px">
-                  This site was generated by <a href="http://getpelican.com" target="_blank">Pelican</a>
-                  with a <a href="https://github.com/Python-Nairobi/pyconke17-dopetrope" target="_blank">theme based heavily</a>
-                  on the excellent <a href="https://html5up.net/dopetrope" target="_blank">Dopetrope theme</a> by HTML5 UP (html5up.net | @ajlkn)</a>
+                    This site was generated by <a href="http://getpelican.com" target="_blank">Pelican</a>
+                    with a <a href="https://github.com/Python-Nairobi/pelican-pyconke-17" target="_blank">theme based on elements</a>
+                    from the excellent <a href="https://html5up.net/dopetrope" target="_blank">Dopetrope theme</a> by HTML5 UP (html5up.net | @ajlkn)</a>
                 </p>
-                <ul class="social">
-                  <li>
-                    <a class="icon fa-github" href="https://github.com/python-nairobi" target="_blank">
-                      <span class="label">github</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="icon fa-twitter" href="https://twitter.com/pynbo" target="_blank">
-                      <span class="label">twitter</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="icon fa-meetup" href="https://www.meetup.com/Python-Nairobi/" target="_blank">
-                      <span class="label">meetup</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="icon fa-file-text" href="http://blog.pynbo.or.ke/" target="_blank">
-                      <span class="label">file-text</span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              </section>
+                    <ul class="social">
+                            <li>
+                                <a class="icon fa-github" href="https://github.com/python-nairobi" target="_blank">
+                                  <span class="label">github</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="icon fa-twitter" href="https://twitter.com/pynbo" target="_blank">
+                                  <span class="label">twitter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="icon fa-meetup" href="https://www.meetup.com/Python-Nairobi/" target="_blank">
+                                  <span class="label">meetup</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="icon fa-file-text" href="http://blog.pynbo.or.ke/" target="_blank">
+                                  <span class="label">file-text</span>
+                                </a>
+                            </li>
+                    </ul>
             </div>
-
-            </div>
-          </div>
-        </section>
-      </div>
-
-    </div>
-
-    <!-- Scripts -->
-    <script src="/theme/js/jquery.min.js"></script>
-    <script src="/theme/js/jquery.dropotron.min.js"></script>
-    <script src="/theme/js/skel.min.js"></script>
-    <script src="/theme/js/skel-viewport.min.js"></script>
-    <script src="/theme/js/util.js"></script>
-    <!--[if lte IE 8]><script src="/theme/js/ie/respond.min.js"></script><![endif]-->
-    <script src="/theme/js/main.js"></script>
-  </body>
+        </div>
+    </footer>
+    <!-- /Footer -->
+</body>
 </html>
