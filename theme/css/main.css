@@ -476,9 +476,8 @@ li {
       .sponsors .sponsor-grid li {
         display: inline-block;
         margin-right: 2.5em; }
-      .sponsors .sponsor-grid.level-1 img {height: 10em;}
-      .sponsors .sponsor-grid.level-2 img {height: 8em;}
-      .sponsors .sponsor-grid.level-3 img {height: 6em;}
+      .sponsors .sponsor-grid.level-1 img {height: 14em; margin:.5em 1.5em }
+      .sponsors .sponsor-grid.level-2 img {height: 8em; margin:.5em 0em }
 
   footer {
     flex: 1;
