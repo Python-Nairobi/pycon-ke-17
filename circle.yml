@@ -25,4 +25,4 @@ deployment:
     branch: master
     commands:
       - sed -i s/circleci_github/cideploy/g ~/.ssh/config
-      - ghp-import -p output
+      - ghp-import -p output -f
