@@ -72,6 +72,20 @@
     }
   }
 
+  //Disabled
+  &.disabled{
+    &::before {
+      content: ' ';
+      height: 3px;
+      width: 93%;
+      position: absolute;
+      background: #fff;
+      left: 0;
+      top: 1.1em;
+      margin-left: 3.5%;
+    }
+  }
+
   //Hollow  button styles
   &.hollow {
     background: transparent;
