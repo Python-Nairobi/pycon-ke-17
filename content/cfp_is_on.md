@@ -17,8 +17,8 @@ at the conference, we are all ears!
 **_"PyCon is for Python enthusiasts of all experience levels, from new users to core developers."_<sub>- The PSF on PyCon</sub>**
 </span>
 
-Your propoposal will never be too entry-level or advanced to feature at this event. Keeping that in mind,
-go ahead and fill in the volunteer form below and when you do, someone from the commitee will reach out to you.  
+Your proposal will never be too entry-level or advanced to feature at this event. Keeping that in mind,
+go ahead and fill in the proposal submission form below and when you do, someone from the commitee will reach out to you.  
 
 
 <iframe

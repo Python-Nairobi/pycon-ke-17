@@ -4,7 +4,7 @@ Tags: call for volunteers, cfv
 Slug: call_for_volunteers
 Category: Event Planning
 Author: James Nzomo
-Summary: The call for volunteers is on! Running a conference it tough work and we'll need all the KyM we can get :) !
+Summary: The call for volunteers is on! Running a conference is tough work and we'll need all the KyM we can get :) !
 
 
 ##The call for volunteers is on!
